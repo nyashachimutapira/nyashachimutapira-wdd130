@@ -1,27 +1,34 @@
-main{
- max-width: 840;   
-}
-aside{
-    width: 20rem
-    margin: 1rem;
-    border: 1px solid rgba(0,0,0,0,2);/*1*/
-    padding: 1rem;
-    nackground-color:#eee;
-    color :#333;
-    text-align: center;
-}
-aside img{
-    width: 200;
-    height: auto;
-}
-main img{
-    width: 150;
-    height: auto;
-    ...
-}
-p{padding: 0;}
-footer{
-    margin-top: 15px;
-    border-top: 1px solid #0000;
-    text-align: center;
-}
+!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course Home Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="(link unavailable)">LinkedIn</a></li>
+                <li><a href="(https://www.facebook.com/100003074421910/posts/pfbid02qAWud9kQEr4xN243uwcwdb4bA3XTNf1v8YBK1MDzFxVngDKPEavFeHbxhZefqQMNl/?app=fbl)">Facebook</a></li>
+            </ul>
+        </nav>
+        <h1>Courses</h1>
+    </header>
+    <div class="grid">
+        <main>
+            <!-- main content here -->
+        </main>
+        <aside>
+            <!-- aside content here -->
+        </aside>
+    </div>
+    <footer>
+        <!-- footer content here -->
+    </footer>
+</body>
+</html>
