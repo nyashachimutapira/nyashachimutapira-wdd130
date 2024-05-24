@@ -1,0 +1,63 @@
+/* Universal Selector */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Class Selectors */
+.box {
+    margin: 1rem;
+    padding: 1rem;
+    border: 1px solid #fff; /* Example border, customize as needed */
+    background-color: brown; /* Example background color */
+    color: #333; /* Example text color */
+}
+
+/* Float Profile Image */
+.profile-image {
+    float: right;
+    margin-left: 1rem; /* Adds space between the image and the text */
+}
+
+/* Positioning for Heading Overlay */
+aside {
+    position: relative;
+}
+
+.state-country-heading {
+    position: absolute;
+    bottom: 10px; /* Adjust as needed */
+    left: 10px; /* Adjust as needed */
+    color: #fff; /* Example text color, customize as needed */
+}
+
+/* Navigation Bar */
+nav {
+    background-color: #333; /* Example background color */
+    color: #fff; /* Example text color */
+    padding: 0.5rem;
+}
+
+nav a {
+    color: #fff; /* Example link color */
+    text-decoration: none; /* Removes underline from links */
+    margin-right: 1rem; /* Adds space between the links */
+}
+
+nav a:hover {
+    text-decoration: underline; /* Adds underline on hover */
+}
+
+/* Main Content Styles */
+main {
+    padding: 1rem;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333; /* Example background color */
+    color: #fff; /* Example text color */
+    padding: 0.5rem;
+    text-align: center;
+}
